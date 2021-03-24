@@ -12,3 +12,18 @@ aplicação que tem a função de cadastrar e listar produtos e categorias de um
   - POST (/v1/produts)
   - GET (/v1/produts/{ID})
   - GET (/v1/category)
+* modelos de inserção de dados(product):
+ ```
+ {
+	"title":"book name",
+	"description": "description of product",
+	"price": 8.0,
+	"categoryId": 6
+}
+ ```
+* modelos de inserção de dados(category):
+ ```
+{
+	"title":"title for a catogory ..."
+}
+ ```
